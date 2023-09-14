@@ -1,5 +1,5 @@
 <p align="center">
-  <video alt="Projeto App Lampada" src="./.github/projeto.png" width="100%">
+  <img alt="Projeto App Lampada" src="./.github/projeto.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
