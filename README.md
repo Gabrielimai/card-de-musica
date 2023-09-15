@@ -12,4 +12,4 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - HTML e CSS
 - JAVASCRIPT
  
- possui a opção de tocar uma muscica ao apertar o bitão de play
+ possui a opção de tocar uma muscica ao apertar o botão de play
