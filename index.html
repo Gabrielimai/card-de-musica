@@ -1,37 +1,40 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Card Music</title>
 </head>
+
 <body>
     <div class="container">
         <div class="card-img">
             <img src="./img/hans-eiskonen-8Pm_A-OHJGg-unsplash 1.png" alt="">
         </div>
-            <div class="card-text">
-                <h2 id="musicName">Acorda Devinho</h2>
-                <span id="artistName">Banda Rocketseat</span>
-            </div>
+        <div class="card-text">
+            <h2 id="musicName">Acorda Devinho</h2>
+            <span id="artistName">Banda Rocketseat</span>
+        </div>
         <div class="play-controller">
-          <i id="back"><img src="./assets/play-back.png" alt=""></i>
-          <i id="play"><img src="./assets/icons8-pause.png" alt=""></i>
-          <i id="next"><img src="./assets/next.png" alt=""></i>
+            <i class="fa-solid fa-backward" style="color: #ffffff;"></i>
+            <i onclick="playPause()" class="fa-solid fa-play "  id="ctrlIcon" style="color: #ffffff;"></i>
+            <i class="fa-solid fa-forward" style="color: #ffffff;"></i>
         </div>
-        <div class="area-progress">
-            <progress value="0.0" max="1"></progress> 
-            <div class="point-time"></div>
-        </div>
-                <div class="time">
-                    <p>0:00</p>
-                    <p>3:00</p> 
-                </div>
-           
-           
-            
+
+        <audio id="song">
+            <source src="./music/We Ride! - Reed Mathis.mp3" type="audio/mpeg">
+        </audio>
+        <input type="range" value="0" id="progress">
+        <div class="time">
+            <p>0:00</p>
+            <p>3:00</p>
         </div>
     </div>
+    </div>
+    <script src="./script.js"></script>
+    <script src="https://kit.fontawesome.com/8cbb6c1359.js" crossorigin="anonymous"></script>
 </body>
+
 </html>

@@ -1,5 +1,8 @@
+
+## 💻Foto do Projeto
+
 <p align="center">
-  <video alt="Projeto App Lampada" src="./.github/projeto.png" width="100%">
+  <img alt="Projeto App Lampada" src="./.github/projeto.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
@@ -7,8 +10,6 @@
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - HTML e CSS
-
-
-## 💻Foto do Projeto 
-
-
+- JAVASCRIPT
+ 
+ possui a opção de tocar uma muscica ao apertar o bitão de play
